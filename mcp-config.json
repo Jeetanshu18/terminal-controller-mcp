@@ -1,12 +1,12 @@
 {
   "mcpServers": {
     "terminal-controller": {
-      "command": "D:\\BackDataService\\terminal-controller-mcp\\.venv\\Scripts\\python.exe",
+      "command": "/home/gong/Desktop/terminal-controller-mcp/.venv/bin/python",
       "args": [
-        "D:\\BackDataService\\terminal-controller-mcp\\terminal_controller.py"
+        "/home/gong/Desktop/terminal-controller-mcp/terminal_controller.py"
       ],
       "env": {
-        "PYTHONPATH": "D:\\BackDataService\\terminal-controller-mcp"
+        "PYTHONPATH": "/home/gong/Desktop/terminal-controller-mcp"
       }
     }
   }

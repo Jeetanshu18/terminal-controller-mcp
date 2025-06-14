@@ -8,7 +8,7 @@ from datetime import datetime
 from mcp.server.fastmcp import FastMCP
 
 # Initialize MCP server
-mcp = FastMCP("terminal-controller")
+mcp = FastMCP("terminal-controller", log_level="INFO")
 
 # List to store command history
 command_history = []
