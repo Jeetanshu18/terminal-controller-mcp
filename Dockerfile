@@ -2,7 +2,7 @@
 FROM python:3.11-alpine
 
 # Install build dependencies
-RUN apk add --no-cache gcc musl-dev libffi-dev
+RUN apk add --no-cache gcc musl-dev libffi-dev git
 
 # Set work directory
 WORKDIR /app
